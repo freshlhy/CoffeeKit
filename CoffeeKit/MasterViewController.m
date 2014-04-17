@@ -7,8 +7,10 @@
 //
 
 #import "MasterViewController.h"
-
 #import "DetailViewController.h"
+
+#define kCLIENTID @"P3EQ2FMZA4CV4KMQCYI1SKCBONAM43ZKXKTHQ03SK5AYIBGN"
+#define kCLIENTSECRET @"1I2ZHLI4QDKDFKNI012ASOVB4UELDZRGBBNLDM3BT2PXTQZM"
 
 @interface MasterViewController () {
     NSMutableArray *_objects;
