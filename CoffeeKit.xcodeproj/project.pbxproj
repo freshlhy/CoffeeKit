@@ -11,6 +11,7 @@
 		59558A91190011DF00D1E37A /* Venue.m in Sources */ = {isa = PBXBuildFile; fileRef = 59558A90190011DF00D1E37A /* Venue.m */; };
 		59558A9419001AF900D1E37A /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 59558A9319001AF900D1E37A /* Location.m */; };
 		59558A971903626100D1E37A /* VenueCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 59558A961903626100D1E37A /* VenueCell.m */; };
+		59558A9A19055A8900D1E37A /* Stats.m in Sources */ = {isa = PBXBuildFile; fileRef = 59558A9919055A8900D1E37A /* Stats.m */; };
 		59F0FDCF18FF72340084CA2F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59F0FDCE18FF72340084CA2F /* Foundation.framework */; };
 		59F0FDD118FF72340084CA2F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59F0FDD018FF72340084CA2F /* CoreGraphics.framework */; };
 		59F0FDD318FF72340084CA2F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59F0FDD218FF72340084CA2F /* UIKit.framework */; };
@@ -46,6 +47,8 @@
 		59558A9319001AF900D1E37A /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
 		59558A951903626100D1E37A /* VenueCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VenueCell.h; sourceTree = "<group>"; };
 		59558A961903626100D1E37A /* VenueCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VenueCell.m; sourceTree = "<group>"; };
+		59558A9819055A8900D1E37A /* Stats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stats.h; sourceTree = "<group>"; };
+		59558A9919055A8900D1E37A /* Stats.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stats.m; sourceTree = "<group>"; };
 		59F0FDCB18FF72340084CA2F /* CoffeeKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59F0FDCE18FF72340084CA2F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		59F0FDD018FF72340084CA2F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -145,6 +148,8 @@
 				59558A9319001AF900D1E37A /* Location.m */,
 				59558A951903626100D1E37A /* VenueCell.h */,
 				59558A961903626100D1E37A /* VenueCell.m */,
+				59558A9819055A8900D1E37A /* Stats.h */,
+				59558A9919055A8900D1E37A /* Stats.m */,
 			);
 			path = CoffeeKit;
 			sourceTree = "<group>";
@@ -311,6 +316,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				59F0FDDF18FF72340084CA2F /* AppDelegate.m in Sources */,
+				59558A9A19055A8900D1E37A /* Stats.m in Sources */,
 				59F0FDE518FF72340084CA2F /* MasterViewController.m in Sources */,
 				59F0FDDB18FF72340084CA2F /* main.m in Sources */,
 				59558A91190011DF00D1E37A /* Venue.m in Sources */,
